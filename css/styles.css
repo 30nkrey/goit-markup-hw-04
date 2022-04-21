@@ -198,9 +198,9 @@ color: var(--primary-text-color);
 .hero {
   padding: 200px 0 200px;
   max-width: 1600px;
-  margin: auto;
+  height: 600px;
+  background: rgba(47, 48, 58, 0.4);
   text-align: center;
-  background-color: #C4C4C4;;
   background-image: url("../images/fone-hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -208,6 +208,7 @@ color: var(--primary-text-color);
   
    
 }
+
 .container-h {
   width: 1200px;
   padding: 0 15px;

@@ -169,10 +169,12 @@ a {
 
 
 .mail {
+
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
 }
+
 .tel {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -195,7 +197,7 @@ color: var(--primary-text-color);
 
 .hero {
   padding: 200px 0 200px;
-  width: 100%;
+  max-width: 1600px;
   margin: auto;
   text-align: center;
   background-color: #C4C4C4;;
@@ -226,7 +228,7 @@ color: var(--primary-text-color);
   text-align: center;
   color: var(--background-color);
   text-transform: uppercase;
-  background-color: var(--background-color-ft);
+  
   
 }
 .our-projects {
@@ -250,6 +252,9 @@ color: var(--primary-text-color);
   cursor: pointer;
   background-color: var(--accent-color);
   border: 0ch;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .zakaz:hover  {

@@ -198,7 +198,7 @@ color: var(--primary-text-color);
   width: 100%;
   margin: auto;
   text-align: center;
-  background-color: var(--background-color-ft);
+  background-color: #C4C4C4;;
   background-image: url("../images/fone-hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;

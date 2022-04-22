@@ -171,27 +171,15 @@ a {
 .icon {
   margin-right: 10px;
 }
-.icon:hover .envel {
- fill: #2196f3;
-}
-
-.item-icon-tel::before {
-  display: inline-block;
-  content: "";
-  height: 16px;
-  width: 10px;
-  
-  margin-right: 10px;
-  background-image: url(../images/vector.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+.icon:hover .envel,
+.icon:hover .vector {
+ fill: var(--accent-color);
 }
 
 .tel {
   padding-top: 32px;
   padding-bottom: 32px;
-color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .post-tel .link:hover,

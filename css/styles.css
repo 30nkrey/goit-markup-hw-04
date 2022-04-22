@@ -168,9 +168,13 @@ a {
   padding-bottom: 32px;
   color: var(--primary-text-color);
 }
-.item-icon-mail:hover {
-  fill: var(--accent-color);
+.icon {
+  margin-right: 10px;
 }
+.icon:hover .envel {
+ fill: #2196f3;
+}
+
 .item-icon-tel::before {
   display: inline-block;
   content: "";

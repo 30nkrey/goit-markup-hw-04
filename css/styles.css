@@ -247,8 +247,7 @@ a {
   display: inline-block;
   height: 50px;
   width: 200px;
-  left: 700px;
-  top: 430px;
+  
   border-radius: 4px;
 
   font-size: 16px;
@@ -284,7 +283,23 @@ a {
   clip: rect(0 0 0 0); 
   overflow: hidden; 
 }
-
+.thumb {
+  display: block;
+  width: 270px;
+  
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: var(--background-color-btn);
+  
+}
+.antenna,
+.clock,
+.diagram,
+.astronaut {
+  width: 70px;
+  height: 70px;
+}
+ 
 .our-strong {
   padding-top: 0px;
   

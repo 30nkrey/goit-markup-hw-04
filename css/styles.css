@@ -399,6 +399,10 @@ color: var(--primary-text-color);
 /*Section Чем занимаются*/
 
   /*Section Team*/
+
+.icon-social-team:hover {
+  fill: #ffffff;
+}
 .icons-team {
   display: flex;
   justify-content: center;
@@ -406,8 +410,8 @@ color: var(--primary-text-color);
 }
 
 .icon-social-team {
-    margin: 12px 0px 0px 12px;
-    fill: currentColor;
+  margin: 12px;
+  fill: currentColor;
   }
 .team-backgroud-color {
  background-color: var(--background-color-btn);

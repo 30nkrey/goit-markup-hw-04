@@ -400,7 +400,7 @@ color: var(--primary-text-color);
 
   /*Section Team*/
   .icon-social-team {
-    margin: 12px 0px;
+    margin: 12px 0px 0px 12px;
     fill: currentColor;
   }
 .team-backgroud-color {
@@ -595,26 +595,25 @@ text-align: center;
 .icons {
   
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding-top: 0;
   margin-top: 0;
   list-style: none;
   
-  
 }
 
+
 .link-social {
-  
+  display: block;
   width: 44px;
   height: 44px;
-  display: block;
   border-radius: 50%;
   color: var(--white-background-color);
   background-color: #ffffff10;
  
 }
 .icon-social {
-  margin: 12px 0px 0px 12px;
+  margin: 12px;
   fill: currentColor;
 }
 

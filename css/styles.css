@@ -537,14 +537,14 @@ color: var(--primary-text-color);
   text-align: center;
   letter-spacing: 0.03em;
 }
-.icon {
+.icon-cl {
   
 }
- .icon:hover {
-   color: #AFB1B8;
+ .icon-logo:hover {
+   fill: var(--accent-color);
  }
-.icon:hover .letter {
-  fill: currentColor;
+.icon-logo {
+  fill: var(--color-clients);
 }
 
 .c-clients {

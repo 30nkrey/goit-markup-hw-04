@@ -403,11 +403,10 @@ color: var(--primary-text-color);
 .team-backgroud-color {
  background-color: var(--background-color-btn);
 }
-.team {
 
-}
 
 /*Section Наши проекты */
+
 .projects-transp {
   position: absolute; 
   width: 1px; 
@@ -524,9 +523,17 @@ color: var(--primary-text-color);
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  
+}
+.icon {
   
 }
+ .icon:hover {
+   color: #AFB1B8;
+ }
+.icon:hover .letter {
+  fill: currentColor;
+}
+
 .c-clients {
   display: flex;
   justify-content: space-between;
@@ -547,10 +554,10 @@ text-align: center;
 .item-cl+.item-cl {
  margin-left: 30px;
 }
-
-.icon-logo:hover {
-  fill: var(--accent-color);
+.cl:hover {
+  color: var(--accent-color);
 }
+
 
 
 
@@ -561,7 +568,7 @@ text-align: center;
 .containers {
   display: inline-block;
   padding-left: 516px;
-  padding-bottom: 100px;
+  
   margin-left: 70px;
   width: 206px;
   
@@ -585,12 +592,12 @@ text-align: center;
 .icons {
   
   display: flex;
-  align-items: center;
+  justify-content: space-evenly;
   padding-top: 0;
   margin-top: 0;
   list-style: none;
     
-  align-items: center;
+  
   
 }
 .icons:hover {

@@ -399,7 +399,13 @@ color: var(--primary-text-color);
 /*Section Чем занимаются*/
 
   /*Section Team*/
-  .icon-social-team {
+.icons-team {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.icon-social-team {
     margin: 12px 0px 0px 12px;
     fill: currentColor;
   }

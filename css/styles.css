@@ -13,6 +13,7 @@
 /* цвет фона под фото #e5e5e5*/
 /*цвет фона карточки #eeeeee*/
 /* цвет линии внизу шапки #ececec*/
+/*цвет фона клиентов #AFB1B8*/
 
 
 :root {
@@ -31,6 +32,7 @@
   --color-fon-image: #e5e5e5;
   --color-bgd-card: #eeeeee;
   --border-hr-color: #ececec;
+  --color-clients: #AFB1B8;
 }
 html {
   box-sizing: border-box;
@@ -523,7 +525,7 @@ color: var(--primary-text-color);
   text-align: center;
   letter-spacing: 0.03em;
   
-  color: #212121;
+  
 }
 .c-clients {
   display: flex;
@@ -535,7 +537,7 @@ display: inline-block;
 width: 170px;
 padding: 16px 32px;
 
-border: 1px solid #AFB1B8;
+border: 1px solid var(--color-clients);
 box-sizing: border-box;
 border-radius: 4px;
 text-align: center;
@@ -591,6 +593,9 @@ text-align: center;
   align-items: center;
   
 }
+.icons:hover {
+  background-image: var(--accent-color);
+}
 
 
 .link-social {
@@ -607,8 +612,8 @@ text-align: center;
   fill: currentColor;
 }
 
-.icon-social:hover .link-social{
- fill: #2196f3;
+.link-social:hover {
+ background-color:  #2196f3;
 }
 
 .item-social .item-social:not(:last-child) {

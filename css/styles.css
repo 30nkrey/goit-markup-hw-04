@@ -537,11 +537,9 @@ color: var(--primary-text-color);
   text-align: center;
   letter-spacing: 0.03em;
 }
-.icon-cl {
-  
-}
- .icon-logo:hover {
-   fill: var(--accent-color);
+
+.icon-logo:hover {
+  fill: var(--accent-color);
  }
 .icon-logo {
   fill: var(--color-clients);
@@ -558,10 +556,12 @@ width: 170px;
 padding: 16px 32px;
 
 border: 1px solid var(--color-clients);
-box-sizing: border-box;
 border-radius: 4px;
 text-align: center;
 
+}
+.cl:hover {
+ color: var(--accent-color);
 }
 
 .item-cl+.item-cl {
@@ -626,7 +626,9 @@ text-align: center;
   margin: 12px;
   fill: currentColor;
 }
-
+.icon-social:hover {
+  fill: var(--background-color);
+}
 .link-social:hover {
  background-color: var(--accent-color);
 }

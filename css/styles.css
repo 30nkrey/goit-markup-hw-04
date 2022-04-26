@@ -537,13 +537,14 @@ color: var(--primary-text-color);
   text-align: center;
   letter-spacing: 0.03em;
 }
+.icon-logo {
+  fill: var(--color-clients);
+}
 
 .icon-logo:hover {
   fill: var(--accent-color);
  }
-.icon-logo {
-  fill: var(--color-clients);
-}
+
 
 .c-clients {
   display: flex;
@@ -561,7 +562,8 @@ text-align: center;
 
 }
 .cl:hover {
- color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+ 
 }
 
 .item-cl+.item-cl {

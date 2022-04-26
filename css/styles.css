@@ -399,7 +399,10 @@ color: var(--primary-text-color);
 /*Section Чем занимаются*/
 
   /*Section Team*/
-
+  .icon-social-team {
+    margin: 12px 0px;
+    fill: currentColor;
+  }
 .team-backgroud-color {
  background-color: var(--background-color-btn);
 }
@@ -596,12 +599,9 @@ text-align: center;
   padding-top: 0;
   margin-top: 0;
   list-style: none;
-    
   
   
 }
-
-
 
 .link-social {
   
@@ -614,8 +614,7 @@ text-align: center;
  
 }
 .icon-social {
-  margin: 12px 0px;
-
+  margin: 12px 0px 0px 12px;
   fill: currentColor;
 }
 

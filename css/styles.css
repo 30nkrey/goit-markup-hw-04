@@ -656,8 +656,8 @@ text-align: center;
  background-color: var(--accent-color);
 }
 
-.item-social .item-social:not(:last-child) {
-  margin-left: 10px;
+.icons-team .item-social:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* Логотип и адрес*/

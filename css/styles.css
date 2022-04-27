@@ -172,18 +172,21 @@ a {
   padding-bottom: 32px;
   color: var(--primary-text-color);
 }
+.icon-post {
+margin-right: 10px;
+
+}
 
 .mail:hover,
 .mail:focus {
+ fill: var(--accent-color);
  color: var(--accent-color);
 }
 .tel:hover,
 .tel:focus {
+  fill: var(--accent-color);
   color: var(--accent-color);
 }
-/*.icon-post:hover {
-  color: var(--accent-color);
-}*/
 .tel {
   display: flex;
   align-items: center;

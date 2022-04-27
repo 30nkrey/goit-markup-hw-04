@@ -68,7 +68,7 @@ body {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-   
+  
 }
 
 ul {
@@ -196,9 +196,6 @@ a {
  padding-bottom: 94px;
 }
 
-.un-top {
-  padding-top: 0px;
-}
 
 .hero {
   padding: 200px 0 200px;
@@ -221,8 +218,7 @@ a {
 
 .container-h {
   width: 1200px;
-  padding: 94px 15px;
-
+  padding: 0 15px;
   margin: 0 auto;
 }
 .title {
@@ -550,6 +546,11 @@ color: var(--primary-text-color);
 
 
 /*Section Cliets*/
+.univer {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .clients {
   margin-bottom: 50px;
   font-weight: 700;
@@ -557,41 +558,29 @@ color: var(--primary-text-color);
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
 .icon-logo {
   fill: var(--color-clients);
 }
-
-.icon-logo:hover {
-  fill: var(--accent-color);
- }
-
-
 .c-clients {
   display: flex;
   justify-content: space-between;
- 
-}
-.cl {
-display: inline-block;
+  align-items: center;
+ }
+.client {
+  display: block;
 width: 170px;
 padding: 16px 32px;
-
 border: 1px solid var(--color-clients);
 border-radius: 4px;
 text-align: center;
-
 }
-.cl:hover {
-  border: 1px solid var(--accent-color);
- 
-}
-
 .item-cl+.item-cl {
  margin-left: 30px;
 }
-.cl:hover {
-  color: var(--accent-color);
+.client:hover {
+  fill: var(--accent-color);
 }
 
 
@@ -601,30 +590,31 @@ text-align: center;
 
 /*Section Footer*/
 
-.containers {
-  display: inline-block;
-  padding-left: 516px;
-  
-  margin-left: 70px;
-  width: 206px;
-  
+.container-f {
+  display: flex;
+  justify-content: start;
+  align-items: center;
 
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .socials {
-    
   width: 145px;
-  
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  
   color: var(--background-color);
-  
-
+  margin-bottom: 20px;
+  padding-top: 72px;
 }
+.soc {
+  margin-left: 70px;
+}
+
 .icons {
   
   display: flex;
@@ -634,7 +624,6 @@ text-align: center;
   list-style: none;
   
 }
-
 
 .link-social {
   display: block;
@@ -659,9 +648,16 @@ text-align: center;
 .icons-team .item-social:not(:last-child) {
   margin-right: 10px;
 }
+.icons .item-social:not(:last-child) {
+  margin-right: 10px;
+}
+
+
 
 /* Логотип и адрес*/
-
+.addr {
+  padding-top: 60px;
+}
 
 .links-ft>.item-ft:not(:last-child) {
   margin-bottom: 9px;
@@ -710,7 +706,7 @@ color: var(--background-color);
 }
 .foot-bg {
   height: 252px;
-  padding: 60px 0px;
+ 
   background-color: var(--background-color-ft);
 }
 .logo-f > span {

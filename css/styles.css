@@ -165,7 +165,7 @@ a {
   align-items: center;
  }
 .mail  {
-  margin-left: 10px;
+  
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
@@ -173,9 +173,8 @@ a {
 .icon {
   margin-right: 10px;
 }
-.icon:hover .envel,
-.icon:hover .vector {
- fill: var(--accent-color);
+.link.mail.icon:hover {
+ color: var(--accent-color);
 }
 
 .tel {
@@ -185,10 +184,10 @@ a {
 }
 
 .post-tel .link:hover,
-.post-tel .link:focus
- {
+.post-tel .link:focus 
+ 
   color: var(--accent-color);
-}
+
 
 
 /* Section Главная*/
@@ -222,7 +221,8 @@ a {
 
 .container-h {
   width: 1200px;
-  padding: 0 15px;
+  padding: 94px 15px;
+
   margin: 0 auto;
 }
 .title {
@@ -287,10 +287,11 @@ a {
   overflow: hidden; 
 }
 .thumb {
-  display: block;
-  width: 270px;
-  
-  padding: 25px 100px;
+
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
   background-color: var(--background-color-btn);
   
@@ -362,6 +363,9 @@ color: var(--primary-text-color);
   width: 270px;
   height: 101px;
 }
+.our-strong-ul {
+  padding-top: 0;
+}
 
 .our-strong-ul>.item-chem:not(:last-child) {
   margin-right: 30px;
@@ -400,19 +404,28 @@ color: var(--primary-text-color);
 
   /*Section Team*/
 
-.icon-social-team:hover {
-  fill: #ffffff;
-}
+
 .icons-team {
   display: flex;
   justify-content: center;
   margin-top: 16px;
+    
 }
 
 .icon-social-team {
   margin: 12px;
-  fill: currentColor;
+  fill: var(--color-clients);
+  
+}
+.link-social {
+  color: var(--primary-text-color);
+}
+
+.icon-social-team:hover {
+  fill: var(--background-color);
+  
   }
+
 .team-backgroud-color {
  background-color: var(--background-color-btn);
 }
@@ -634,7 +647,7 @@ text-align: center;
 }
 .icon-social {
   margin: 12px;
-  fill: currentColor;
+  fill: var(--color-clients);
 }
 .icon-social:hover {
   fill: var(--background-color);
@@ -647,7 +660,7 @@ text-align: center;
   margin-left: 10px;
 }
 
-
+/* Логотип и адрес*/
 
 
 .links-ft>.item-ft:not(:last-child) {

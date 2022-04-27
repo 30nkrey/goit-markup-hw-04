@@ -165,28 +165,38 @@ a {
   
  }
 .mail  {
+  display: flex;
+  align-items: center;
   
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
 }
-.icon {
-  margin-right: 10px;
-}
-.link:hover {
+
+.mail:hover,
+.mail:focus {
  color: var(--accent-color);
 }
-
+.tel:hover,
+.tel:focus {
+  color: var(--accent-color);
+}
+/*.icon-post:hover {
+  color: var(--accent-color);
+}*/
 .tel {
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
 }
 
-.post-tel .link:hover,
-.post-tel .link:focus 
+
+  
+
  
-  color: var(--accent-color);
+  
 
 
 

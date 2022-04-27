@@ -569,18 +569,21 @@ color: var(--primary-text-color);
   align-items: center;
  }
 .client {
-display: flex;
-width: 170px;
-padding: 16px 32px;
-border: 1px solid var(--color-clients);
-border-radius: 4px;
-text-align: center;
+  display: flex;
+  width: 170px;
+  padding: 16px 32px;
+  border: 1px solid var(--color-clients);
+  border-radius: 4px;
+  text-align: center;
 }
 .item-cl+.item-cl {
  margin-left: 30px;
 }
-.client:hover {
+.icon-logo:hover {
   fill: var(--accent-color);
+}
+.client:hover {
+  border: 1px solid var(--accent-color);
 }
 
 

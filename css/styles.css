@@ -586,6 +586,9 @@ color: var(--primary-text-color);
 
 /*Section Footer*/
 
+.soc {
+  margin-left: 70px;
+}
 
 .socials {
   font-weight: 700;
@@ -595,10 +598,6 @@ color: var(--primary-text-color);
   text-transform: uppercase;
   color: var(--background-color);
   margin-bottom: 20px;
-}
-
-.soc {
-  margin-left: 70px;
 }
 
 .icons {

@@ -515,9 +515,7 @@ margin-bottom: 50px;
   
 }
 
-.cartka:hover,
-.cartka:focus {
-  
+.item-c:hover {
   box-shadow: 0 4px 4px 0 #00000025;
 }
 
@@ -556,7 +554,7 @@ color: var(--primary-text-color);
 
 
 
-/*Section Cliets*/
+/*Section Clients*/
 .univer {
   padding-top: 94px;
   padding-bottom: 94px;

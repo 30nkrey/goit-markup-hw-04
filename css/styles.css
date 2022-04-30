@@ -370,8 +370,9 @@ a {
 }
 .job-f {
   display: flex;
-  
 }
+
+
 .job-f>.item-t+.item-t {
   margin-left: 30px;
 }
@@ -490,13 +491,17 @@ margin-bottom: 50px;
  margin: -15px;
 }
 
+.cartka {
+display: block;
+}
+
+.job-c .cartka:hover {
+  box-shadow: 0 4px 4px 0 #00000025;
+}
+
 .item-c {
   width: 370px;
   margin: 15px;
-}
-
-.item-c:hover {
-  box-shadow: 0 4px 4px 0 #00000025;
 }
 
 .carta {

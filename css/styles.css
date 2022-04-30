@@ -65,7 +65,7 @@ body {
 
 .container {
   display: flex;
-  align-items: center;
+  
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
@@ -592,6 +592,8 @@ color: var(--primary-text-color);
 /*Section Footer*/
 
 .soc {
+  display: block;
+  padding-top: 72px;
   margin-left: 70px;
 }
 

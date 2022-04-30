@@ -64,8 +64,6 @@ body {
 }
 
 .container {
-  display: flex;
-  
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
@@ -74,12 +72,15 @@ body {
 ul {
   list-style-type: none;
 }
-/* Логотип*/
+ Логотип
 
 .hr-toge {
 border-bottom: 1px solid var(--border-hr-color);
 }
 
+.heade {
+  display: flex;
+}
 .main-nav {
   display: flex;
   align-items: center;
@@ -164,9 +165,7 @@ a {
 }
 
 .mail  {
-  display: flex;
-  align-items: center;
-  
+
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
@@ -187,8 +186,7 @@ a {
 }
 
 .tel {
-  display: flex;
-  align-items: center;
+
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
@@ -214,11 +212,6 @@ a {
   background-size: cover;
 }
 
-.container-h {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
 .title {
   width: 696px;
   height: 120px;
@@ -464,6 +457,7 @@ margin-bottom: 50px;
 }
 
 .btn {
+  display: block;
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
@@ -500,6 +494,7 @@ display: block;
 }
 
 .item-c {
+  display: block;
   width: 370px;
   margin: 15px;
 }
@@ -592,9 +587,7 @@ color: var(--primary-text-color);
 /*Section Footer*/
 
 .soc {
-  display: block;
-  padding-top: 72px;
-  margin-left: 70px;
+ margin-left: 70px;
 }
 
 .socials {
@@ -636,9 +629,10 @@ color: var(--primary-text-color);
 }
 
 /* Логотип и адрес*/
-.addr {
-  padding-top: 60px;
-  padding-bottom: 60px;
+
+.ft-fx {
+  display: flex;
+  align-items: center;
 }
 
 .links-ft>.item-ft:not(:last-child) {
@@ -661,6 +655,7 @@ color: var(--primary-text-color);
 }
 
 .links-ft {
+  display: block;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;

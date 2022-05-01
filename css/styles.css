@@ -165,7 +165,8 @@ a {
 }
 
 .mail  {
-
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
@@ -341,9 +342,8 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 
-.item-chem {
-  width: 270px;
-  height: 101px;
+.un-chem {
+  padding-top: 0;
 }
 
 .our-strong-ul {
@@ -632,7 +632,7 @@ color: var(--primary-text-color);
 
 .ft-fx {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .links-ft>.item-ft:not(:last-child) {

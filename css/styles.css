@@ -620,7 +620,8 @@ color: var(--primary-text-color);
   fill: var(--background-color);
 }
 
-.link-social:hover {
+.link-social:hover,
+.link-social:focus {
  background-color: var(--accent-color);
 }
 
